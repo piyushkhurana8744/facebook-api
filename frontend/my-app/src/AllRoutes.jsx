@@ -1,11 +1,12 @@
 import React from 'react'
 import {Routes,Route} from "react-router-dom"
-import Facebookleads from './Facebookleads'
+
+import FacebookLogin from './facebooklogin'
 const AllRoutes = () => {
   return (
     <div>
       <Routes>
-        <Route path="facebook-leads" element={<Facebookleads />}></Route>
+        <Route path="/" element={<FacebookLogin />}></Route>
       </Routes>
     </div>
   )

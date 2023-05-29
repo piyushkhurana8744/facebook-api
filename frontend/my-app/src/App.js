@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import FacebookLogin from './facebooklogin';
+
+import AllRoutes from './AllRoutes';
 
 function App() {
   return (
     <div className="App">
-     <FacebookLogin />
+    <AllRoutes />
     </div>
   );
 }
